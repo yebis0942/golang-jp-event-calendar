@@ -39,3 +39,6 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
+release:
+  name_template: "{{ .ProjectName }}--{{ .ShortCommit }}"
