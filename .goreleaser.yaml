@@ -40,5 +40,5 @@ changelog:
       - "^docs:"
       - "^test:"
 
-release:
-  name_template: "{{ .ProjectName }}--{{ .ShortCommit }}"
+snapshot:
+  name_template: "{{.ShortCommit}}"
